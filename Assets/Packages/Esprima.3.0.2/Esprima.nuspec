@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Esprima</id>
+    <version>3.0.2</version>
+    <authors>Sebastien Ros</authors>
+    <license type="expression">BSD-3-Clause</license>
+    <licenseUrl>https://licenses.nuget.org/BSD-3-Clause</licenseUrl>
+    <projectUrl>https://github.com/sebastienros/esprima-dotnet</projectUrl>
+    <description>Standard-compliant ECMAScript 2022 parser (also known as JavaScript).</description>
+    <copyright>Sebastien Ros</copyright>
+    <tags>javascript, parser, ecmascript</tags>
+    <repository type="git" url="https://github.com/sebastienros/esprima-dotnet" commit="4d80582db44d38b055b2a57153453ce76210b56e" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+</package>
