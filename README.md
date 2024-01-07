@@ -2,7 +2,10 @@
 
 This is a playable proof-of-concept of a Minecraft-like voxel game mapped onto a large-scale spherical planet. It is written in C# and HLSL and created in Unity3D.
 
-<video src="Movie_003.mp4" controls title="Title"></video>
+
+https://github.com/ddupont808/planetcraft/assets/3820588/d7989566-fdff-4cd0-be97-dc0880a9352b
+
+
 This video demonstrates a 12km wide flatgrass planet with rings at `y=6025 x=2 z=2` using a mod that adds Minecraft content (examplemod.zip)
 
 ## Features
